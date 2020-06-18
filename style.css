@@ -27,6 +27,17 @@ header {
     color: white;
   }
 
+  #buttonSet1 {
+    position: absolute;
+    top: 2rem;
+    right:3rem;
+  }
+  #buttonSet2 {
+    position: absolute;
+    top: 4rem;
+    right:3rem;
+  }
+
 nav {
   padding: 1rem 3rem ;
   background: #333;

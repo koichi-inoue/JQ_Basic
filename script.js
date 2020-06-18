@@ -1,3 +1,4 @@
+// buttonSet1
 $( function() {
 
   $( '#buttonHeader' ).click( function() {
@@ -16,16 +17,23 @@ $( function() {
     $( 'footer a' ).css( 'color','red' );
   });
 
-  $( '#buttonLeft' ).click( function() {
+});
+
+// buttonSet2
+$( function() {
+
+  $( '#buttonNormal' ).click( function() {
     $('main').css( 'flex-direction','row' );
+  });
+
+  $( '#buttonReverse' ).click( function() {
+    $('main').css( 'flex-direction','row-reverse' );
   });
 
   $( '#buttonVertical' ).click( function() {
     $('main').css( 'flex-direction','column' );
   });
 
-  $( '#buttonRight' ).click( function() {
-    $('main').css( 'flex-direction','row-reverse' );
-  });
+
 
 });
